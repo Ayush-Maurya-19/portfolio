@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "React  Website",
     description: "Project 1 description",
-    image: "/images/Ayush.png",
+    image: "/images/HomePage.png",
     gitUrl: "/",
     previewUrl: "/",
   },

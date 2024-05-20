@@ -13,31 +13,24 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
-      <div className="md:grid md:grid-cols-2  gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <section className="text-white" id="about">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/Ayush.png "
-          width={300}
-          height={200}
+          width={500}
+          height={500}
           alt="aboutSection"
-          className="ml-16  rounded-xl"
+          className=""
         />
         <div>
-          <h2 className="text-4xl font-bold text-white mb-4 ">About Me</h2>
-          <p className="text- lg:text-lg">
-            I'm a dedicated MERN stack developer with a Master's degree in
-            Computer Applications (MCA) and a strong foundation in computer
-            science. My programming journey began during my academic years,
-            where I developed a deep understanding of software development
-            principles and methodologies. Throughout my MCA program, I honed my
-            skills in data structures, algorithms, and software engineering
-            practices, laying the groundwork for my technical proficiency.
-            <br /> <br />I am passionate about full-stack web development,
-            specializing in the MERN stack and Next.js. Leveraging MongoDB,
-            Express.js, React.js, Node.js, and Next.js, I contribute to dynamic,
-            responsive web applications. My commitment to continuous learning
-            keeps me updated with the latest trends and best practices, enabling
-            me to tackle new challenges with enthusiasm and dedication.
+          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <p className="text-base lg:text-lg text-justify		">
+            I am a full-stack developer specializing in MERN stack and Next.js.
+            I have been working in the field of web development for the past 2
+            years. I have a passion for learning and sharing my knowledge with
+            others as publicly as possible. I write articles and tutorials about
+            web development on my blog. I am a self-taught developer and believe
+            in the power of community and open-source.
           </p>
         </div>
       </div>
