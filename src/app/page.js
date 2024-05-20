@@ -1,10 +1,9 @@
-import Image from "next/image";
 import HeroSection from "./components/HeroSection";
-import { Container } from "postcss";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
-import { LayoutRouter } from "next/dist/server/app-render/entry-base";
 import ProjectSection from "./components/ProjectSection";
+import EmailSection from "./components/EmailSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +13,8 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ProjectSection />
+        <EmailSection />
+        <Footer />
       </div>
     </main>
   );
