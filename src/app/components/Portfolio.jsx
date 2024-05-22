@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from "react";
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import Image from "next/image";
 
 const items = [
   {
@@ -30,7 +31,24 @@ const items = [
 ];
 
 const Single = ({ item }) => {
-  return <section>{item.title}</section>;
+  const ref = useRef();
+  const { scrollYProgress } = useScroll({
+    target: ref,
+  });
+
+  const y  = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  return (
+    <section ref={ref}>
+      <div className="container">
+        <img src="{item.img}" alt="images" />
+        <motion.div className="textContainer" style={{y}}>
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+          <button>Check Out Now</button>
+        </motion.div>
+      </div>
+    </section>
+  );
 };
 
 const Portfolio = () => {
@@ -47,7 +65,7 @@ const Portfolio = () => {
     <div className="portfolio" ref={ref}>
       <div className="progress">
         <h1>My Projects</h1>
-        <motion.div style={{scaleX}} className="progressBar"></motion.div>
+        <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
         <Single key={item.id} item={item} />
