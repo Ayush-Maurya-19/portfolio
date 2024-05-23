@@ -22,7 +22,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a full-stack developer specializing in MERN stack and Next.js.
+            I&apos;m a full-stack developer specializing in MERN stack and Next.js.
           </p>
           <div>
             <Link
