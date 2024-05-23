@@ -46,9 +46,9 @@ const HeroSection = () => {
             <div className=" p-1 rounded-full">
               <Image
                 src="/images/Ayush.png"
-                className="rounded-full"
-                width={250}
-                height={250}
+                className="rounded-full "
+                width={300}
+                height={300}
                 alt="hero"
               />
             </div>

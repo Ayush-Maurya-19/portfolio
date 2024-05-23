@@ -12,7 +12,7 @@ const projectsData = [
     feature1: "In this project I have used React, Node.js, Express.js, MongoDB, and Bootstrap.",
     feature2: "Feature 2",
     feature3: "Feature 3",
-    gitUrl: "/",
+    gitUrl: "https://github.com/Ayush-Maurya-19/Homify",
     previewUrl: "/",
   },
   {
@@ -23,7 +23,7 @@ const projectsData = [
     feature2: "Feature 2",
     feature3: "Feature 3",
     image: "/images/HomePage2.png",
-    gitUrl: "/",
+    gitUrl: "https://github.com/Ayush-Maurya-19/ThinkInk",
     previewUrl: "/",
   },
   {
@@ -34,7 +34,7 @@ const projectsData = [
     feature2: "Feature 2",
     feature3: "Feature 3",
     image: "/images/HomePage3.png",
-    gitUrl: "/",
+    gitUrl: "https://github.com/Ayush-Maurya-19/BlogBay",
     previewUrl: "/",
   },
   {
@@ -114,7 +114,7 @@ const Portfolio = () => {
                       <li>{project.feature3}</li>
                     </ul>
                     <Link
-                      href="/"
+                      href={project.gitUrl}
                       className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                     >
                       View GitHub Repo
@@ -140,7 +140,7 @@ const Portfolio = () => {
                       <li>{project.feature3}</li>
                     </ul>
                     <Link
-                      href="/"
+                      href={project.gitUrl}
                       className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                     >
                       View GitHub Repo
