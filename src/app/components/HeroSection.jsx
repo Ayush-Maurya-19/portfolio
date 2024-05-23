@@ -41,23 +41,17 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="z-0 absolute mt-32 ml-24">
-            <Image
-              src="/images/Ayush.png"
-              className="rounded-full "
-              width={250}
-              height={250}
-              alt="hero"
-            />
-          </div>
-          <div className="z-0">
-            <Image
-              src="/images/graph.png"
-              width={450}
-              height={400}
-              alt="hero"
-            />
+        <div className="relative col-span-5 place-self-center mt-4 lg:mt-0">
+          <div className="p-1 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full">
+            <div className=" p-1 rounded-full">
+              <Image
+                src="/images/Ayush.png"
+                className="rounded-full"
+                width={250}
+                height={250}
+                alt="hero"
+              />
+            </div>
           </div>
         </div>
       </div>
