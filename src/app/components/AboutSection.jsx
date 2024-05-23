@@ -16,14 +16,14 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/images/Ayush.png "
+          src="/images/AboutSectionIMG.jpg "
           width={500}
           height={500}
           alt="aboutSection"
           className=""
         />
         <div>
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4 mt-5">About Me</h2>
           <p className="text-base lg:text-lg text-justify		">
             I am a full-stack developer specializing in MERN stack and Next.js.
             I have been working in the field of web development for the past 2
