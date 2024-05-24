@@ -1,17 +1,8 @@
 "use client";
-import React, { useState, useTransition } from "react";
+import React from "react";
 import Image from "next/image";
 
 const AboutSection = () => {
-  const [tap, setTap] = useState("skills");
-  const [startTransition, isPending] = useTransition({ timeoutMs: 3000 });
-
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTap(id);
-    });
-  };
-
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
