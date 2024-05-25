@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 font-semibold"
         >
           Ayush Maurya
         </Link>

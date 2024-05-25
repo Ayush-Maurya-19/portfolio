@@ -46,7 +46,7 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md"
+                className="rounded-md  border-dotted border-2 border-white-400 "
               />
             </div>
             <div className="col-span-1 mt-4 md:mt-0">
@@ -97,7 +97,7 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md"
+                className="rounded-md  border-dotted border-2 border-blue-600 "
               />
             </div>
           </div>
@@ -113,7 +113,7 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md"
+                className="rounded-md  border-dotted border-2 border-white-400 "
               />
             </div>
             <div className="col-span-1 mt-4 md:mt-0">
@@ -164,7 +164,7 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md"
+                className="rounded-md  border-dotted border-2 border-white-400 "
               />
             </div>
           </div>

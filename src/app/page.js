@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import EmailSection from "./components/EmailSection";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Portfolio from "./components/Portfolio";
 
@@ -12,6 +13,8 @@ const Page = () => {
           <AboutSection />
           <Portfolio />
           <EmailSection />
+          <Footer />
+
         </div>
       </main>
     </>
