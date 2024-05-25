@@ -1,9 +1,10 @@
 
-
-export default function Home() {
+const Page = () => {
   return (
     <>
-
+    
     </>
-  );
+  )
 }
+
+export default Page
