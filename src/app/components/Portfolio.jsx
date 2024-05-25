@@ -7,6 +7,7 @@ import ScrollReveal from "scrollreveal";
 const Portfolio = () => {
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
     const sr = ScrollReveal();
 
     sr.reveal(".project-section:nth-child(odd)", {
@@ -24,6 +25,7 @@ const Portfolio = () => {
       duration: 2000,
       interval: 100,
     });
+  }
   }, []);
 
   return (
