@@ -49,7 +49,7 @@ const images = [
     alt: "Java",
   },
   {
-    src: "/images/MYSQL.webp",
+    src: "/images/MySQL.webp",
     alt: "MYSQL",
   },
 ];

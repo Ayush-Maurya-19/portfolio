@@ -86,7 +86,7 @@ const Portfolio = () => {
                   <li>Reliable Technologies Used</li>
                 </ul>
                 <Link
-                  href="#"
+                  href="https://github.com/Ayush-Maurya-19/Homify"
                   className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                 >
                   View GitHub Repo
@@ -122,7 +122,7 @@ const Portfolio = () => {
                   <li>Multiplayer Connictivity using Socket.IO</li>
                 </ul>
                 <Link
-                  href="#"
+                  href="https://github.com/Ayush-Maurya-19/ThinkInk"
                   className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                 >
                   View GitHub Repo
@@ -178,7 +178,7 @@ const Portfolio = () => {
                   <li>Designed with Pure CSS</li>
                 </ul>
                 <Link
-                  href="#"
+                  href="https://github.com/Ayush-Maurya-19/BlogBay"
                   className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                 >
                   View GitHub Repo
@@ -216,7 +216,7 @@ const Portfolio = () => {
                   <li>User-friendly Interface</li>
                 </ul>
                 <Link
-                  href="#"
+                  href="https://github.com/Ayush-Maurya-19/weatherapp"
                   className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                 >
                   View GitHub Repo
