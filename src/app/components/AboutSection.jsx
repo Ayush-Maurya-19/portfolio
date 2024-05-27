@@ -60,7 +60,7 @@ const AboutSection = () => {
     imageRefs.current.forEach((ref) => {
       if (ref) {
         VanillaTilt.init(ref, {
-          max: 25,
+          max: 30,
           speed: 400,
           glare: true,
           "max-glare": 0.5,

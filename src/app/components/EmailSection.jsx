@@ -23,7 +23,7 @@ const EmailSection = () => {
   return (
     <section
       id="contact"
-      className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
+      className="grid md:grid-cols-2 my-12 md:my-12 md:py-24 py-14 gap-4 relative"
     >
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
@@ -42,11 +42,11 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/Ayush-Maurya-19">
-            <img src={GithubIcon} alt="Github Icon" />
+            <Image src={GithubIcon} alt="Github Icon" />
           </Link>
 
           <Link href="https://www.linkedin.com/in/ayush-maurya-776a78211/">
-            <img src={LinkedinIcon} alt="LinkedIn Icon" />
+            <Image src={LinkedinIcon} alt="LinkedIn Icon" />
           </Link>
         </div>
       </div>

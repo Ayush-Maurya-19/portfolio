@@ -37,7 +37,7 @@ const Portfolio = () => {
     imageRefs.current.forEach((ref) => {
       if (ref) {
         VanillaTilt.init(ref, {
-          max: 10,
+          max: 20,
           speed: 400,
           glare: true,
           "max-glare": 0.5,
@@ -47,11 +47,11 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <div id="projects">
+      <h2 className="text-center text-4xl font-bold text-white mt-6 mb-4 md:mb-12 " > 
         My Projects
       </h2>
-      <section className="text-white project-section mt-10 ">
+      <section className="text-white project-section mt-5 ">
         <div className="container mx-auto px-4">
           <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2">
             <div className="col-span-1 md:pl-36 flex py-4">
@@ -97,7 +97,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="text-white mt-20  project-section">
+      <section className="text-white mt-8 md:mt-20  project-section"> 
         <div className="container mx-auto px-4">
           <div className="grid grid-flow-row-dense gap-4 grid-cols-1 md:grid-cols-2">
             <div className="col-span-1 order-2 md:order-1 md:ml-36">
@@ -143,7 +143,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="text-white project-section mt-20 ">
+      <section className="text-white mt-8 md:mt-20  project-section"> 
         <div className="container mx-auto px-4">
           <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2">
             <div className="col-span-1 md:pl-36 flex py-4">
@@ -189,7 +189,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="text-white mt-20 project-section">
+      <section className="text-white mt-8 md:mt-20 project-section">
         <div className="container mx-auto px-4">
           <div className="grid grid-flow-row-dense gap-4 grid-cols-1 md:grid-cols-2">
             <div className="col-span-1 order-2 md:order-1 md:ml-36">
@@ -236,7 +236,7 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
