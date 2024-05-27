@@ -1,6 +1,7 @@
 "use client";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import VanillaTilt from "vanilla-tilt";
 
 const images = [
   {
@@ -37,11 +38,11 @@ const images = [
   },
   {
     src: "/images/Bootstrap.png",
-    alt: "Next",
+    alt: "Bootstrap",
   },
   {
     src: "/images/Tailwind.png",
-    alt: "Next",
+    alt: "Tailwind",
   },
   {
     src: "/images/Java.png",
@@ -54,6 +55,21 @@ const images = [
 ];
 
 const AboutSection = () => {
+  const imageRefs = useRef([]);
+
+  useEffect(() => {
+    imageRefs.current.forEach((ref) => {
+      if (ref) {
+        VanillaTilt.init(ref, {
+          max: 25,
+          speed: 400,
+          glare: true,
+          "max-glare": 0.5,
+        });
+      }
+    });
+  }, []);
+
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -78,7 +94,11 @@ const AboutSection = () => {
             <h2 className="text-xl font-bold text-white mt-2">Skills</h2>
             <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mt-4">
               {images.map((image, index) => (
-                <div key={index} className="flex justify-center items-center p-2 bg-gray-900 rounded-md">
+                <div
+                  key={index}
+                  ref={(el) => (imageRefs.current[index] = el)}
+                  className="flex justify-center items-center p-2 bg-gray-900 rounded-md"
+                >
                   <Image
                     src={image.src}
                     alt={image.alt}

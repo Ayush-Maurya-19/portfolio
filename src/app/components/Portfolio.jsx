@@ -1,9 +1,12 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
+import VanillaTilt from "vanilla-tilt";
 
 const Portfolio = () => {
+  const imageRefs = useRef([]);
+
   useEffect(() => {
     const loadScrollReveal = async () => {
       if (typeof window !== "undefined") {
@@ -30,6 +33,17 @@ const Portfolio = () => {
     };
 
     loadScrollReveal();
+
+    imageRefs.current.forEach((ref) => {
+      if (ref) {
+        VanillaTilt.init(ref, {
+          max: 10,
+          speed: 400,
+          glare: true,
+          "max-glare": 0.5,
+        });
+      }
+    });
   }, []);
 
   return (
@@ -46,7 +60,8 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md border-dotted border-2 border-white-400 "
+                className="rounded-md  "
+                ref={(el) => (imageRefs.current[0] = el)}
               />
             </div>
             <div className="col-span-1 mt-4 md:mt-0">
@@ -120,7 +135,8 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md  border-dotted border-2 border-white-600 "
+                className="rounded-md   "
+                ref={(el) => (imageRefs.current[1] = el)}
               />
             </div>
           </div>
@@ -136,7 +152,8 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md  border-dotted border-2 border-white-400 "
+                className="rounded-md  "
+                ref={(el) => (imageRefs.current[2] = el)}
               />
             </div>
             <div className="col-span-1 mt-4 md:mt-0">
@@ -212,7 +229,8 @@ const Portfolio = () => {
                 alt="project"
                 width="500"
                 height="500"
-                className="rounded-md  border-dotted border-2 border-white-400 "
+                className="rounded-md   "
+                ref={(el) => (imageRefs.current[3] = el)}
               />
             </div>
           </div>
