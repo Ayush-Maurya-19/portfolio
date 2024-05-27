@@ -34,14 +34,18 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
           <br />
-          ayushmaurya180@gmail.com
+          
+            - ayushmaurya180@gmail.com
+         
+          <br />
+          - 7355007915
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com">
+          <Link href="https://github.com/Ayush-Maurya-19">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
 
-          <Link href="https://linkedin.com">
+          <Link href="https://www.linkedin.com/in/ayush-maurya-776a78211/">
             <Image src={LinkedinIcon} alt="LinkedIn Icon" />
           </Link>
         </div>
