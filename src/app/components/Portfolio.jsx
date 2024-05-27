@@ -97,7 +97,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="text-white mt-20 project-section">
+      <section className="text-white mt-20  project-section">
         <div className="container mx-auto px-4">
           <div className="grid grid-flow-row-dense gap-4 grid-cols-1 md:grid-cols-2">
             <div className="col-span-1 order-2 md:order-1 md:ml-36">
