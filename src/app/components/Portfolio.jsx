@@ -15,7 +15,7 @@ const Portfolio = () => {
           delay: 200,
           origin: "left",
           distance: "100px",
-          duration: 2000,
+          duration: 1500,
           interval: 100,
         });
 
@@ -23,7 +23,7 @@ const Portfolio = () => {
           delay: 200,
           origin: "right",
           distance: "100px",
-          duration: 2000,
+          duration: 1500,
           interval: 100,
         });
       }
@@ -183,7 +183,7 @@ const Portfolio = () => {
                 <p>
                   A responsive web application built with{" "}
                   <span className="text-blue-500 font-bold ">React</span> that
-                  fetches real-time weather data using a
+                  fetches real-time weather data using a{" "}
                   <span className="text-blue-500 font-bold ">
                     OpenWeatherMap
                   </span>
