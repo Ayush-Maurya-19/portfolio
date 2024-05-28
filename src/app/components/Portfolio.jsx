@@ -25,7 +25,7 @@ const Portfolio = () => {
         sr.reveal(".project-section:nth-child(even)", {
           delay: 200,
           origin: "right",
-          distance: "100px",
+          distance: "40px",
           duration: 1500,
           interval: 100,
         });
@@ -37,7 +37,7 @@ const Portfolio = () => {
     imageRefs.current.forEach((ref) => {
       if (ref) {
         VanillaTilt.init(ref, {
-          max: 20,
+          max: 10,
           speed: 400,
           glare: true,
           "max-glare": 0.5,
