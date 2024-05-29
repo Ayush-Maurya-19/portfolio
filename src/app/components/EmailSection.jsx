@@ -38,15 +38,20 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 md:py-24 py-14 gap-4 relative"
     >
-      <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I&apos;m currently looking for new opportunities my inbox is always open.
-          Whether you have a question or just want to say hi, I&apos;ll try my best
-          to get back to you!
-          <br />
+      <div className="">
+        <h5 className="text-xl font-bold text-white my-2">
+          Let&apos;s Connect
+        </h5>
+        <p className="text-[#ADB7BE] mb-2 max-w-md">
+          I&apos;m currently looking for new opportunities my inbox is always
+          open. Whether you have a question or just want to say hi, I&apos;ll
+           get back to you as soon as possible!
+          </p>
+          <p className="text-[#ADB7BE] mb-2 max-w-md">
+
           - ayushmaurya180@gmail.com
-          <br />- 7355007915
+          <br/>
+          - 7355007915
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/Ayush-Maurya-19">
