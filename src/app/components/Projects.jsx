@@ -74,8 +74,8 @@ const Projects = () => {
                     tailored for a medicine manufacturing company. Designed with
                     a focus on user experience and functionality, Wellicia
                     features a clean, professional layout that effectively
-                    showcases the companys products and services. It provides
-                    an intuitive interface for visitors to explore the range of
+                    showcases the companys products and services. It provides an
+                    intuitive interface for visitors to explore the range of
                     medical solutions offered, enhancing both user engagement
                     and brand presence.{" "}
                   </p>
@@ -107,13 +107,13 @@ const Projects = () => {
                   </h3>
                   <p>
                     Emma Home is a beautifully designed e-commerce website
-                    dedicated to home furnishings. Built on a robust wordpress platform,
-                    Emma Home offers an extensive collection of products
-                    including rugs, carpets, cushions, table linen, throws, bed
-                    linen, bath mats, and bath towels. With an elegant and
-                    user-friendly interface, the website provides a seamless
-                    shopping experience, making it easy for customers to find
-                    and purchase high-quality home decor items.
+                    dedicated to home furnishings. Built on a robust
+                    platform, Emma Home offers an extensive collection of
+                    products including rugs, carpets, cushions, table linen,
+                    throws, bed linen, bath mats, and bath towels. With an
+                    elegant and user-friendly interface, the website provides a
+                    seamless shopping experience, making it easy for customers
+                    to find and purchase high-quality home decor items.
                   </p>
 
                   <p className="mt-2">Features:</p>
@@ -149,7 +149,7 @@ const Projects = () => {
             <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2">
               <div className="col-span-1 md:pl-36 flex py-4">
                 <img
-                  src="/images/HomePage3.png"
+                  src="/images/honeylicious.png"
                   alt="project"
                   width="500"
                   height="500"
@@ -160,30 +160,31 @@ const Projects = () => {
               <div className="col-span-1 mt-4 md:mt-0">
                 <div className="card">
                   <h3 className="text-2xl font-bold text-white mb-3">
-                    Blogging Website
+                    Honeylicious
                   </h3>
                   <p>
-                    This is a Blogging Website, built with{" "}
-                    <span className="text-blue-500 font-bold ">Next.js</span>{" "}
-                    and styled with
-                    <span className="text-blue-500 font-bold "> CSS</span>.
-                    Providing lightning-fast performance, responsive design, and
-                    seamless navigation. Showcase your content beautifully on
-                    any device with customizable layouts and interactive
-                    features.
+                    Honeylicious is a WordPress-powered e-commerce platform
+                    dedicated to offering 100% natural honey products. Based in
+                    Delhi, India, our small team collaborates with local farmers
+                    across diverse regions to produce honey using sustainable
+                    methods. At Honeylicious, we prioritize customer
+                    satisfaction by delivering premium products that blend
+                    quality with affordability, promoting a healthy lifestyle
+                    while preserving traditional farming practices and
+                    biodiversity.
                   </p>
                   <p className="mt-2">Features:</p>
 
                   <ul className="list-disc ml-5">
                     <li>Responsive design</li>
-                    <li>Build On Next.js</li>
-                    <li>Designed with Pure CSS</li>
+                    <li>Build On Wordpress</li>
+                    <li>Reliable Technologies</li>
                   </ul>
                   <Link
-                    href="https://github.com/Ayush-Maurya-19/BlogBay"
+                    href="https://honeylicious.co.in/"
                     className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                   >
-                    View GitHub Repo
+                    Live Link
                   </Link>
                 </div>
               </div>
@@ -197,37 +198,36 @@ const Projects = () => {
               <div className="col-span-1 order-2 md:order-1 md:ml-36">
                 <div className="card">
                   <h3 className="text-2xl font-bold text-white mb-2">
-                    Weather App
+                    Luxabord
                   </h3>
                   <p>
-                    A responsive web application built with{" "}
-                    <span className="text-blue-500 font-bold ">React</span> that
-                    fetches real-time weather data using a{" "}
-                    <span className="text-blue-500 font-bold ">
-                      OpenWeatherMap
-                    </span>
-                    . Users can search for weather information by location, and
-                    the app provides clear and intuitive displays of current
-                    conditions and forecasts.
+                    Luxabord is a beautifully designed website for
+                    a high-end clothing brand. With a focus on elegance and user
+                    experience, Luxabord features a modern, professional layout
+                    that highlights the brands exclusive apparel collections.
+                    The website offers an intuitive browsing experience,
+                    allowing visitors to effortlessly explore the latest fashion
+                    trends and shop for premium clothing items, enhancing both
+                    customer engagement and brand visibility.
                   </p>
                   <p className="mt-2">Features:</p>
 
                   <ul className="list-disc ml-5">
-                    <li>Real-time Weather Data</li>
+                    <li>Real-time data fetches</li>
                     <li>Search Functionality</li>
                     <li>User-friendly Interface</li>
                   </ul>
                   <Link
-                    href="https://github.com/Ayush-Maurya-19/weatherapp"
+                    href="https://luxabord.com/"
                     className="px-6 mt-5 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-black-500 hover:bg-slate-500 text-white"
                   >
-                    View GitHub Repo
+                    Live Link
                   </Link>
                 </div>
               </div>
               <div className="col-span-1 order-1 md:order-2 mt-4 md:mt-0 flex py-6">
                 <img
-                  src="/images/HomePage4.png"
+                  src="/images/luxabord.png"
                   alt="project"
                   width="500"
                   height="500"

@@ -49,7 +49,7 @@ const Portfolio = () => {
   return (
     <div id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-6 mb-4 md:mb-12 " > 
-        My Projects
+        Personal Projects
       </h2>
       <section className="text-white project-section mt-5 ">
         <div className="container mx-auto px-4">
