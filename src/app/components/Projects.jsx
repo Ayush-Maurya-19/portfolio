@@ -56,7 +56,7 @@ const Projects = () => {
             <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2">
               <div className="col-span-1 md:pl-36 flex py-4">
                 <img
-                  src="/images/wellicia.png"
+                  src="/images/Wellicia.png"
                   alt="project"
                   width="500"
                   height="500"
