@@ -3,6 +3,7 @@ import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 
 const Page = () => {
   return (
@@ -11,6 +12,7 @@ const Page = () => {
         <div className="container mt-24 mx-auto px-12 py-4">
           <HeroSection />
           <AboutSection />
+          <Projects />
           <Portfolio />
           <EmailSection />
           <Footer />
