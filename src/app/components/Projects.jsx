@@ -74,7 +74,7 @@ const Projects = () => {
                     tailored for a medicine manufacturing company. Designed with
                     a focus on user experience and functionality, Wellicia
                     features a clean, professional layout that effectively
-                    showcases the company's products and services. It provides
+                    showcases the companys products and services. It provides
                     an intuitive interface for visitors to explore the range of
                     medical solutions offered, enhancing both user engagement
                     and brand presence.{" "}
